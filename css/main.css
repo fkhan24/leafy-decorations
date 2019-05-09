@@ -12,7 +12,7 @@ html {
   border-width: 3px;
   border-left: 0;
   border-right: 0;
-
+  color: #fff;
 }
 
 .logo {
@@ -25,10 +25,21 @@ html {
 
 .nav a {
   text-decoration: none;
+  color: #fff;
+  background-color: #467366;
+  border-style: solid;
+  border-color: #2d5a4d;
+  border-width: 3px;
+  border-radius: 8px;
 }
 
 .nav a:hover {
-
+  background-image: url("../images/leaf-icon.svg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: top center;
+  color: #2d5a4d;
 }
 
 .banner {
